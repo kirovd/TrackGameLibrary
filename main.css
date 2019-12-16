@@ -1,0 +1,138 @@
+body{
+    background-image: url(download1.png);
+}
+
+.bounce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font: normal bold 6rem "Product Sans", sans-serif;
+    white-space: nowrap;
+}
+
+.letter {
+    animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+    margin-top: 0.5em;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
+    font: normal bold 6rem "Product Sans", sans-serif;
+}
+
+.letter:nth-child(1) {
+    animation-delay: 0s;
+    color: #4285f4;
+}
+
+.letter:nth-child(2) {
+    animation-delay: 0.08333s;
+    color: #ea4335;
+}
+
+.letter:nth-child(3) {
+    animation-delay: 0.16667s;
+    color: #fbbc05;
+}
+
+.letter:nth-child(4) {
+    animation-delay: 0.25s;
+    color: #4285f4;
+}
+
+.letter:nth-child(5) {
+    animation-delay: 0.33333s;
+    color: #34a853;
+}
+
+.letter:nth-child(6) {
+    animation-delay: 0.41667s;
+    color: #ea4335;
+}
+
+.letter:nth-child(7) {
+    animation-delay: 0.416999s;
+    color: #4285f4;
+}
+
+.letter:nth-child(8) {
+    animation-delay: 0.48667s;
+    color: #fbbc05;
+}
+
+.letter:nth-child(9) {
+    animation-delay: 0.67667s;
+    color: #34a853;
+}
+
+.letter:nth-child(10) {
+    animation-delay: 0.79667s;
+    color: #ea4335;
+}
+
+.letter:nth-child(11) {
+    animation-delay: 0.81667s;
+    color: #4285f4;
+}
+
+.letter:nth-child(12) {
+    animation-delay: 0.91667s;
+    color: #ea4335;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
+    }
+    100% {
+        transform: translate3d(0, -1em, 0);
+        text-shadow: rgba(0, 0, 0, 0.4) 0 1em 0.35em;
+    }
+}
+
+
+/*////////////////////////////The playstation buttons /////////////////////////////////////////////////////////////// */
+
+.c-symbol {
+    display: inline-block;
+    height: 4.5rem;
+    margin-left: 2.25rem;
+    width: 4.5rem;
+    vertical-align: middle;
+}
+
+.c-symbol:first-child {
+    margin-left: 0;
+}
+
+.c-symbol circle {
+    fill: #000;
+}
+
+.c-symbol--square {
+    fill: #cc6699;
+}
+
+.c-symbol--x {
+    fill: #6273a8;
+}
+
+.c-symbol--triangle {
+    fill: #068c85;
+}
+
+.c-symbol--circle {
+    fill: #cc3333;
+}
+
+
+/*///////////////////////////////////////ROW.////////////////////////////*/
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+
