@@ -25,7 +25,7 @@ function filterTable($query)
     $connect = mysqli_connect("localhost", "root", "", "gamelib");
     $result = mysqli_query($connect, $query);
     return $result;
-}
+} 
 
 ?>
 
